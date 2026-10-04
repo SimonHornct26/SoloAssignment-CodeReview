@@ -10,7 +10,7 @@ Props sollen in Vue nicht direkt von der Kind-Komponente verändert werden. Note
 
 2. Was passiert, wenn zwei Komponenten dasselbe useNotes() aufrufen?
 
-In unserem Code würden sie nicht automatisch dieselben Notizen teilen. Jeder Aufruf von useNotes() erstellt seine eigene notes-Referenz. Allerdings greifen beide auf denselben localStorage-Eintrag zu, sodass die Daten beim erneuten Laden wieder aus demselben Speicher kommen.
+In meinem Code würden sie nicht automatisch dieselben Notizen teilen. Jeder Aufruf von useNotes() erstellt seine eigene notes-Referenz. Allerdings greifen beide auf denselben localStorage-Eintrag zu, sodass die Daten beim erneuten Laden wieder aus demselben Speicher kommen.
 
 3. Wozu dient das Note-Interface?
 
