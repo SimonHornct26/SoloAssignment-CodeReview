@@ -3,6 +3,8 @@ npm isntall
 npm run dev 
 Dann die angezeigte URL öffnen
 
+Die Logik liegt im Composable useNotes.js, damit App.vue übersichtlich bleibt und sich die Notizfunktionen wie Erstellen, Löschen und Suchen wiederverwenden lassen. Dadurch sind Darstellung und Logik getrennt und der Code ist leichter zu verstehen und zu testen.
+
 Fragen:
 1. Warum darf NoteCard die Notiz-Prop nicht selbst verändern?
 
